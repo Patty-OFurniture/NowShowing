@@ -1,0 +1,37 @@
+﻿# === misc, or badly classified
+The Masked Singer
+The Talk
+The View
+The Voice
+
+# === gameshow
+Family Feud
+Funny You Should Ask
+Let's Make a Deal
+The Price Is Right
+Wheel of Fortune
+
+# === series
+General Hospital
+Suits
+The Love Boat
+
+# === sitcoms
+Bob's Burgers
+Friends
+Laverne & Shirley
+The Conners
+The Three Stooges
+
+# === animated/Children
+ALF Tales
+Beetlejuice
+Casper and Company
+Police Academy: The Animated Series
+
+# === reality
+Brojects
+Hardcore Pawn
+Kevin Hart: What the Fit
+Open House NYC
+Pawn Stars
