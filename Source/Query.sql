@@ -6,6 +6,13 @@
 	CHANNEL.minor as ChannelMinor, 
 	datetime(min(start_time), 'localtime') as StartTime,
 	--timediff(end_time, start_time)),
+	season as Season,
+	episode as Episode,
+	original_air_date as OriginalAirDate,
+	cast_member as [Cast],
+	crew as Crew,
+	star_rating  as Rating,
+	[description] as [Description],
 	ROUND((JULIANDAY(end_time) - JULIANDAY(start_time)) * 24, 1) AS Duration
 
 from EPG_EVENT
@@ -21,20 +28,16 @@ and EPG_EVENT.title not in (
 	select distinct name from recurring_recording
 )
 
-and CHANNEL.name not in ('example1', 'example2')
-
-and EPG_EVENT.genres not in (
-	'example3',
-	'example4',
-	'example5',
-)
-
-and EPG_EVENT.genres not like '%Consumer%'
+and CHANNEL.name not in ('QVC2', 'CourtTV', 'HSN2', 'RADAR')
 
 and EPG_EVENT.title not in (
 	'Paid Program',
 	'Paid Programming'
 ) COLLATE NOCASE
+
+and EPG_EVENT.genres not like '%Consumer%'
+
+and EPG_EVENT.genres not like '%Newsmagazine%'
 
 group by EPG_EVENT.title, CHANNEL.name, CHANNEL.number, CHANNEL.minor
 order by start_time

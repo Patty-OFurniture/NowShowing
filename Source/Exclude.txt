@@ -1,37 +1,753 @@
-﻿# === misc, or badly classified
+﻿# === Sports
+2025 NBA Finals
+2026 NBA Finals
+College Basketball
+Dirt & Trails
+FOX Sports: Voices
+NBA Basketball
+SSN Immortals
+SSN Outdoors
+Sports Stars of Tomorrow
+
+# === Documentary
+Fishing for History
+Mutual of Omaha's Wild Kingdom Protecting the Wild
+Outback Truckers
+She's In The Game
+
+# === misc or badly classified
+Animal Control
+Animal Outtakes
+Animal Rescue
+Around the Pitch with Lexington Sporting Club
+Best Friends Furever With Kel Mitchell
+Best of Live with Lee & Hayley
+Best of the Bluegrass
+Biz Kid$
+Bluegrass Ridge
+Business First With Angela Miles
+Byron Allen Presents: The Comedy and Music Superfest
+Chasing Down Madison Brown
+Comics Unleashed With Byron Allen
+Couples Court With the Cutlers
+Dateline
+Deep Water Salvage
+Did I Mention Invention?
+Disaster Deja vu
+Dish Nation
+Dr. G: Medical Examiner
+Dr. Phil
+Dragonfly TV Sports
+Entertainers: With Byron Allen
+Entertainment This Weekend
+Face the Nation
+Forever Young With Dr. Pablo Prichard
+FOX College Hoops Extra
+FOX College Hoops Tip-Off
+FOX News Sunday
+GMA3
+GMA3: What You Need to Know
+Good Morning America
+Gray Sports World
+Hope in the Wild
+HouseCalls
+Inside Edition Weekend
+Jack Hanna's Passport
+Jack Kain
+Jack Kain Ford
+Karamo
+Kentucky Newsmakers
+Killer Cases
+Laura McKenzie's Traveler
+Live with Kelly and Mark
+Lucky Dog: Down Under
+Mad Dog & Merrill Midwest Grill'n
+Masters of Illusion
+Maury
+Meet the Press
+Missing
+Mutual of Omaha's Wild Kingdom
+Nashville Roadhouse
+Nightline
+Outback Adventures With Tim Faulkner
+PBR Camping World Team Series
+Photowalks On Scripps News
+Pure Outdoor
+Raised Hunting
+Red Barn Radio
+Red, White & Bluegrass
+SOS: How to Survive
+Sherri
+Small Town Big Deal
+Steve Harvey's Big Time Challenge
+Storm of Suspicion
+Tamron Hall
+Taste Buds
+Teen Kids News
+Today at Keeneland
+The Best of the Lee and Hayley Show
+The Drew Barrymore Show
+The Good Side
+The Jack Kain Ford Show With Bob and Dave
+The Jennifer Hudson Show
+The Kelly Clarkson Show
 The Masked Singer
+The Short List
+The Steve Wilkos Show
 The Talk
+The VeryVera Show
 The View
-The Voice
+This Week With George Stephanopoulos
+To Be Announced
+Today
+Weather Gone Viral
+Wellness Hour
+Whacked Out Sports
+Women's College Basketball
+WoodSongs Kids
+Xploration Awesome Planet
+Xploration DIY Sci
+Xploration Nature Knows Best
+Xploration Outer Space
 
 # === gameshow
+25 Words or Less
+99 to Beat
+Celebrity Wheel of Fortune
+Celebrity Family Feud
+Daytime Jeopardy
+Deal or No Deal Island
 Family Feud
+Family Feud Favorites
+Flip Side
 Funny You Should Ask
+Hollywood Squares
+Jeopardy!
 Let's Make a Deal
+Match Game
+Name That Tune
+People Puzzler
+Person, Place or Thing
+Pictionary
+Press Your Luck
+Scrabble
+Scrambled Up
+The 1% Club
+The $100,000 Pyramid
+The Floor
+The Perfect Line
 The Price Is Right
+The Quiz With Balls
+The Snake
+The Wall
+The Weakest Link
+Trivial Pursuit
 Wheel of Fortune
+Who Wants to Be a Millionaire
 
 # === series
+9-1-1
+9-1-1: Nashville
+Adam-12
+Barnaby Jones
+Bat Masterson
+Blue Bloods
+Bonanza
+Boston Blue
+Brilliant Minds
+Buffy the Vampire Slayer
+CHiPs
+CSI: Miami
+CSI: NY
+Cannon
+Chicago Fire
+Chicago Med
+Chicago P.D.
+Criminal Minds
+Death Valley Days
+Dragnet
+Emergency!
+FBI
+FBI: International
+FBI: Most Wanted
+Family Law
+Fire Country
+Found
+Friday the 13th: The Series
 General Hospital
+Ghosts Off Grid
+Grey's Anatomy
+Grimm
+Gunsmoke
+Harry O
+Highway Patrol
+Homicide: Life on the Street
+In the Heat of the Night
+Just Shoot Me
+Kolchak: The Night Stalker
+Land of the Giants
+Law & Order
+Law & Order Toronto: Criminal Intent
+Law & Order: Criminal Intent
+Law & Order: Special Victims Unit
+Mannix
+Matlock
+Mission: Impossible
+Murdoch Mysteries
+NCIS
+NCIS: Hawai'i
+NCIS: Origins
+NCIS: Sydney
+Perry Mason
+Queen Sugar
+Rawhide
+S.W.A.T.
+Sheriff Country
+Songs & Stories With Kelly Clarkson
+Stargate SG-1
 Suits
+Sullivan's Crossing
+Tales From the Darkside
+Tales of Wells Fargo
+The Equalizer
+The Fugitive
+The Invaders
+The Life and Times of Grizzly Adams
 The Love Boat
+The Outer Limits
+The Rifleman
+The Rookie
+The Texan
+The Waltons
+The X-Files
+Thunderbirds
+Time Tunnel
+Tombstone Territory
+Tracker
+Wagon Train
+Watson
+Will Trent
+Without a Trace
+Xena: Warrior Princess
+Zane Grey Theatre
+Zorro
 
 # === sitcoms
+227
+Abbott Elementary
+All About the Andersons
+All in the Family
+All of Us
+American Housewife
+Are We There Yet?
+Becker
+Bob Hearts Abishola
 Bob's Burgers
+Car 54, Where Are You?
+Carol Burnett and Friends
+Caroline in the City
+Cheers
+Dear John
+Designing Women
+Diff'rent Strokes
+Eve
+Everybody Hates Chris
+Everybody Loves Raymond
+Family Affair
+Family Guy
+Family Ties
+For Your Love
 Friends
+Full House
+Get Smart
+Gidget
+Gilligan's Island
+Girlfriends
+God Friended Me
+Gomer Pyle, U.S.M.C.
+Good Times
+Green Acres
+Growing Pains
+Half & Half
+Hangin' With Mr. Cooper
+Happy Days
+Happy's Place
+Head of the Class
+Hogan Family
+Hogan's Heroes
+Hot in Cleveland
+I Love Lucy
+In the House
+Last Man Standing
 Laverne & Shirley
+Leave It to Beaver
+Living Single
+Lost in Space
+Love Thy Neighbor
+M*A*S*H
+Mad About You
+Mama's Family
+Mann & Wife
+Martin
+Modern Family
+Moesha
+Mork & Mindy
+Murphy Brown
+My Three Sons
+Newhart
+NewsRadio
+Night Court
+Oh Baby
+On Brand With Jimmy Fallon
+One on One
+Our Miss Brooks
+Petticoat Junction
+Poppa's House
+Rhoda
+Roc
+Rocky & Bullwinkle
+Sanford & Son
+Saved by the Bell
+Seinfeld
+Shifting Gears
+Sister, Sister
+Square Pegs
+Suddenly Susan
+TV We Love
+Taxi
+That Girl
+The Andy Griffith Show
+The Bernie Mac Show
+The Beverly Hillbillies
+The Big Bang Theory
+The Bob Newhart Show
+The Brady Bunch
+The Bradys
+The Carol Burnett Show
 The Conners
+The Danny Thomas Show
+The Dick Van Dyke Show
+The Donna Reed Show
+The Flintstones
+The Flying Nun
+The Game
+The Goldbergs
+The Honeymooners
+The Jamie Foxx Show
+The Jetsons
+The John Larroquette Show
+The Lone Ranger
+The Lucy Show
+The Many Loves of Dobie Gillis
+The Mary Tyler Moore Show
+The Neighborhood
+The Odd Couple
+The Parent 'Hood
+The Parkers
+The Phil Silvers Show
+The Simpsons
+The Smurfs
 The Three Stooges
+The Tom and Jerry Show
+The Wayans Bros.
+The Women of Brewster Place
+The Woody Woodpecker Show
+Two and a Half Men
+Universal Basic Guys
+Welcome Back, Kotter
+Wings
+Young Sheldon
 
-# === animated/Children
+# === Animated/Children
+Funky Phantom
+Goober and the Ghost Chasers
+2 Stupid Dogs
+A Pup Named Scooby-Doo
 ALF Tales
+ALF: The Animated Series
+Baby Looney Tunes
 Beetlejuice
+Bugs Bunny and Friends
+Captain Planet and the Planeteers
+Captain Scarlet and the Mysterons
+Cartoon All-Stars
 Casper and Company
+Challenge of the GoBots
+Challenge of the Super Friends
+Dastardly & Muttley in Their Flying Machines
+Duck Dodgers
+Fireball XL5
+Flintstone Kids
+Frankenstein, Jr. and the Impossibles
+Freakazoid
+Hanna-Barbera Show
+Histeria!
+House of Hanna-Barbera
+Inspector Gadget
+Joe 90
+Josie and the Pussycats
+Krapopolis
+Mission Unstoppable
+Magilla Gorilla
+Marine Boy
+Mister T
+Pac-Man
+Plastic Man
 Police Academy: The Animated Series
+Popeye and Pals
+Scooby-Doo! Mystery Incorporated
+Scooby-Doo and Scrappy-Doo
+Scooby-Doo, Where Are You!
+Scooby's All-Star Laff-A-Lympics
+Secret Squirrel
+Shaggy & Scooby-Doo Get a Clue!
+SilverHawks
+Speed Racer
+Stingray
+Sunday Night Cartoon All-Stars
+Super Friends
+Super Friends: The Legendary Super Powers Show
+Supercar
+Teenage Mutant Ninja Turtles
+The All-New Super Friends Hour
+The Atom Ant Show
+The Completely Mental Misadventures of Ed Grimley
+The Flintstone Family Adventures
+The Great North
+The Greatest Adventure: Stories from the Bible
+The Huckleberry Hound Show
+The Jacksons: An American Dream
+The Magilla Gorilla Show
+The Man Called Flintstone
+The Mask
+The New Adventures of Captain Planet
+The New Fred and Barney Show
+The New Scooby-Doo Mysteries
+The New Scooby and Scrappy-Doo Show
+The Peter Potamus Show
+The Real Adventures of Jonny Quest
+The Real Ghostbusters
+The Scooby-Doo Show
+The Super Powers Team: Galactic Guardians
+The Underdog Show
+The Visioneers With Zay Harding
+The Wacky World of Tex Avery
+The World's Greatest Super Friends
+The Yogi Bear Show
+Toon in With Me
+Top Cat
+Totally Tooned In
+Underdog
+Wacky Races
+Wait Till Your Father Gets Home
+Where's Huddles?
+Linus the Lionhearted
+Yo, Yogi!
+Yogi's Galaxy Goof-Ups
+Yogi's Space Race
+Yogi's Treasure Hunt
 
 # === reality
+America's Got Talent
+American Idol
+American Ninja Warrior
+ABC Hockey Saturday Pregame
+AKC Good Dog TV
+America's Funniest Home Videos
+Animal Rescue Classics
+Aussie Gold Hunters
+Bachelor in Paradise
 Brojects
+Big Brother
+Cash Cowboys
+Collector's Call
+Combat Dealers
+Destination X
+Earth Odyssey With Dylan Dreyer
+Extraordinary World With Jeff Corwin
+Extreme Makeover: Home Edition
+Fast: Home Rescue
+Fast N' Loud
+Forensic Files
+Gordon Ramsay's Secret Service
+Hardcore Pawn: Chicago
+Hardcore Pawn: Fan Favorites
 Hardcore Pawn
+Harlem Globetrotters: Play It Forward
+Hell's Kitchen
+Hearts of Heroes
+Heroes Among Us
+Hiring America
+Homicide Hunter: Lt. Joe Kenda
+Inside College Basketball
+Jack Hanna's Into the Wild
+Jack Hanna's Wild Countdown
 Kevin Hart: What the Fit
+Kitchen Nightmares
+Lucky Dog: Reunions
+Machinery Pete
+MasterChef
+MLS Soccer
+Most Daring
+NASCAR Countdown Live
+NHL Hockey
+Next Level Chef
+Ocean Mysteries With Jeff Corwin
+Obsession: Dark Desires
+Open House
 Open House NYC
 Pawn Stars
+Pets.TV
+POWERNATION Builds
+Premier League Soccer
+Ready, Set, Pet
+Real Green
+Rescue: HI-Surf
+Salvage Hunters
+Secrets of Bluegrass Chefs
+Second Chance Pets
+Super Animals
+Survivorman
+Tails of Valor
+The Amazing Race
+The Golden Bachelor
+The Henry Ford's Innovation Nation
+The New Detectives
+The Road
+The Song
+The Voice
+The World's Funniest Weather
+To the Rescue
+Totally Funny Animals
+Totally Funny Kids
+Unusual Suspects
+Vets Saving Pets
+Wild Child
+Wildlife Nation With Jeff Corwin
+World Chase Tag
+oh baby!
+
+# === western
+Wanted: Dead or Alive
+Have Gun -- Will Travel
+
+# === movies
+#M:Swordfish
+#M:100 Degrees Below Zero
+#M:Alien Predator
+#M:Bait
+#M:Boomerang
+#M:Bridget Jones's Diary
+#M:Bridget Jones: The Edge of Reason
+#M:Double Take
+#M:Dragonquest
+#M:Fortress
+#M:Fortress: Sniper's Eye
+#M:Gamer
+#M:Gargoyles
+#M:Iron Eagle
+#M:Jackie Brown
+#M:Jumping the Broom
+#M:Just Wright
+#M:Juwanna Mann
+#M:Mega Shark vs Crocosaurus
+#M:Mega Shark vs. Kolossus
+#M:Mega Shark vs. Mecha Shark
+#M:Romeo Must Die
+#M:Seabiscuit
+#M:Season of the Witch
+#M:Shaft's Big Score!
+#M:Sharknado
+#M:South Central
+#M:Sweet Home Alabama
+#M:The Black Cobra
+#M:The Immortals
+#M:The Intruder
+#M:The Package
+#M:Thunder Over Arizona
+#M:Think Like a Man
+#M:Think Like a Man Too
+#M:Torque
+#M:Underclassman
+#M:Uptown Saturday Night
+#M:Welcome Home Roscoe Jenkins
+#M:What Women Want
+#M:Love Don't Cost a Thing
+#M:Daddy Day Care
+#M:Peeples
+#M:Day of the Dead
+#M:Getting Played
+#M:White Chicks
+#M:Navajo Joe
+#M:Who's Your Caddy?
+#M:Why Did I Get Married Too?
+#M:Why Did I Get Married?
+
+# === Steven Seagal
+#M:A Dangerous Man
+#M:A Good Man
+#M:Above the Law
+#M:Absolution
+#M:Against the Dark
+#M:Attack Force
+#M:Attrition
+#M:B.A.P.S
+#M:Belly of the Beast
+#M:Beyond the Law
+#M:Black Dawn
+#M:Born to Raise Hell
+#M:Cartels
+#M:China Salesman
+#M:Clementine
+#M:Code of Honor
+#M:Contract to Kill
+#M:Driven to Kill
+#M:End of a Gun
+#M:Executive Decision
+#M:Exit Wounds
+#M:Fire Down Below
+#M:Flight of Fury
+#M:Force of Execution
+#M:General Commander
+#M:Gutshot Straight
+#M:Half Past Dead
+#M:Hard to Kill
+#M:Into the Sun
+#M:Kill Switch
+#M:Machete
+#M:Marked for Death
+#M:Maximum Conviction
+#M:Mercenary for Justice
+#M:My Giant
+#M:On Deadly Ground
+#M:Out for Justice
+#M:Out for a Kill
+#M:Out of Reach
+#M:Pistol Whipped
+#M:Shadow Man
+#M:Sheep Impact
+#M:Sniper: Special Ops
+#M:Submerged
+#M:The Asian Connection
+#M:The Foreigner
+#M:The Glimmer Man
+#M:The Keeper
+#M:The Onion Movie
+#M:The Patriot
+#M:The Perfect Weapon
+#M:Ticker
+#M:Today You Die
+#M:True Justice
+#M:Under Siege
+#M:Under Siege 2: Dark Territory
+#M:Urban Justice
+
+# === Tyler Perry
+#M:A Madea Christmas
+#M:A Madea Family Funeral
+#M:Alex Cross
+#M:Diary of a Mad Black Woman
+#M:Good Deeds
+#M:I Can Do Bad All by Myself
+#M:Madea Gets a Job
+#M:Madea Goes to Jail
+#M:Madea on the Run
+#M:Madea's Big Happy Family
+#M:Madea's Class Reunion
+#M:Madea's Destination Wedding
+#M:Madea's Family Reunion
+#M:Madea's Farewell Play
+#M:Madea's Neighbors from Hell
+#M:Madea's Tough Love
+#M:Madea's Witness Protection
+#M:Tyler Perry's A Madea Christmas
+#M:Tyler Perry's A Madea Family Funeral
+#M:Tyler Perry's A Madea Homecoming
+#M:Tyler Perry's Acrimony
+#M:Tyler Perry's Assisted Living
+#M:Tyler Perry's Daddy's Little Girls
+#M:Tyler Perry's Divorce in the Black
+#M:Tyler Perry's Duplicity
+#M:Tyler Perry's Good Deeds
+#M:Tyler Perry's Madea Gets a Job
+#M:Tyler Perry's Madea Goes to Jail
+#M:Tyler Perry's Madea on the Run
+#M:Tyler Perry's Madea's Big Happy Family
+#M:Tyler Perry's Madea's Class Reunion
+#M:Tyler Perry's Madea's Destination Wedding
+#M:Tyler Perry's Madea's Family Reunion
+#M:Tyler Perry's Madea's Farewell Play
+#M:Tyler Perry's Madea's Neighbors from Hell
+#M:Tyler Perry's Madea's Tough Love
+#M:Tyler Perry's Madea's Witness Protection
+#M:Tyler Perry's Meet the Browns
+#M:Tyler Perry's Temptation: Confessions of a Marriage Counselor
+#M:Tyler Perry's The Single Moms Club
+#M:Tyler Perry's the Family That Preys
+#M:Tyler Perry's the Marriage Counserlor
+#M:Tyler Perry's the Marriage Counselor
+#M:Tyler Perry's Why Did I Get Married?
+#M:Tyler Perry's Why Did I Get Married Too?
+
+# === Genres
+#G:3x3 basketball;Basketball
+#G:Action;Adventure;Competition reality
+#G:Adventure;Reality
+#G:Agriculture;News
+#G:Agriculture;Travel
+#G:Auto
+#G:Auto racing
+#G:Auto;Entertainment
+#G:Auto;Entertainment;Travel
+#G:Auto;How-to
+#G:Baseball
+#G:Baseball;Playoff sports
+#G:Baseball;Sports talk
+#G:Basketball
+#G:Basketball;Playoff sports
+#G:Bowling
+#G:Boxing
+#G:Bull riding
+#G:Collectibles;Reality
+#G:Community
+#G:Competition reality;Dance
+#G:Country;Music
+#G:Country;Music;Talk
+#G:Crime
+#G:Crime;Documentary
+#G:Crime;Law
+#G:Crime;Law;Reality
+#G:Crime;News
+#G:Crime;Reality
+#G:Drag racing
+#G:Drama;Romance;Soap
+#G:Drama;Soap
+#G:Fishing
+#G:Fishing;Outdoors
+#G:Football
+#G:Football;Interview
+#G:Football;Sports talk
+#G:Golf
+#G:Home improvement
+#G:Home improvement;How-to
+#G:Horse racing
+#G:House/garden
+#G:Hunting
+#G:Interview;Sports talk
+#G:Law;Reality
+#G:Mixed martial arts
+#G:News
+#G:News;Sports talk
+#G:News;Talk
+#G:Newsmagazine
+#G:Pro wrestling
+#G:Reality
+#G:Religious
+#G:Sailing
+#G:Shopping
+#G:Soap
+#G:Soccer
+#G:Soccer;Sports talk
+#G:Sports talk
+#G:Tennis
+#G:Travel

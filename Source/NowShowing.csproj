@@ -8,17 +8,29 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MapDataReader" Version="1.0.13" />
-    <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.0" />
+    <Compile Remove="Source\**" />
+    <EmbeddedResource Remove="Source\**" />
+    <None Remove="Source\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Exclude.txt">
+    <None Remove="Exclude.txt" />
+    <None Remove="Query.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Exclude.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Query.sql">
+    </Content>
+    <Content Include="Query.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MapDataReader" Version="1.0.13" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.8" />
   </ItemGroup>
 
 </Project>

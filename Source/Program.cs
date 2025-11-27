@@ -9,6 +9,16 @@ namespace NowShowing
     {
         static void Main(string[] args)
         {
+            // args = new[] { "-export" };
+
+            if (args.Length == 1 && args[0] == "-export")
+                Exporter.Export(args);
+			else
+				Main_(args);
+        }
+
+        static void Main_(string[] args)
+        { 
             var sqlFile = @"C:\Users\Public\NPVR-data\npvr.db3";
             if (args.Length > 1)
                 if (File.Exists(args[0]))
@@ -16,26 +26,39 @@ namespace NowShowing
 
             string query = File.ReadAllText("Query.sql");
 
-            // if?
             var excludeList = File.ReadAllLines("Exclude.txt");
-            var exclude = excludeList
+
+            var excludeTitles = excludeList
                 .Where(s => !String.IsNullOrEmpty(s))
                 .Where(s => !s.StartsWith("#"))
                 .Distinct()
+                .ToHashSet();
+
+            var excludeGenres = excludeList
+                .Where(s => s.StartsWith("#G:"))
+                .Select(s => EventOutput.FixGenres(s.Substring(3)))
+                .Distinct()
+                .ToHashSet();
+
+            var excludeMovies = excludeList
+                .Where(s => s.StartsWith("#M:"))
+                .Distinct()
+                .Select(s => s.Substring(3))
                 .ToHashSet();
 
 #if GenerateClass
             CreateClass("Event", sqlFile, query);
             return;
 #endif
-            CheckSqliteFile(sqlFile, query, exclude);
+            var events = GetEvents(sqlFile, query);
+
+            EventOutput.WriteEvents(events, excludeTitles, excludeGenres, excludeMovies);
 
             return;
         }
 
-        private static void CheckSqliteFile(string sqlFile, string query, HashSet<string> exclude)
+        private static List<Event> GetEvents(string sqlFile, string query)
         {
-            bool exclusive = true;
             List<Event> results;
 
             var connectionString = new SqliteConnectionStringBuilder()
@@ -54,53 +77,12 @@ namespace NowShowing
                 connection.Open();
                 using (var reader = command.ExecuteReader())
                 {
-                    results = reader.ToEvent(); // "ToMyClass" method is generated at compile time
+                    // "ToMyClass" method is generated at compile time
+                    results = reader.ToEvent();
                 }
             }
 
-            foreach (var @event in results)
-            {
-                if (!string.IsNullOrEmpty(@event.Title))
-                {
-                    if (exclude.Contains(@event.Title))
-                        continue;
-
-                    string identifier = $"{@event.ChannelName} - {@event.Title}";
-                    if (exclusive && exclude.Contains(identifier))
-                        continue;
-
-                    exclude.Add(identifier);
-
-                    WriteEventLine(@event, identifier);
-                }
-            }
-        }
-
-        private static void WriteEventLine(Event @event, string identifier)
-        {
-            string startTime = "";
-            if (DateTime.TryParse(@event.StartTime, out DateTime start))
-                startTime = $"{start.DayOfWeek} {start.TimeOfDay}";
-
-            ConsoleColor oldBackgroundColor = Console.BackgroundColor;
-            ConsoleColor oldForegroundColor = Console.ForegroundColor;
-
-            bool isMovie = @event.Genres?.Contains("Movie") ?? false;
-            if (isMovie)
-            {
-                Console.BackgroundColor = ConsoleColor.Blue;
-            }
-
-            bool isAnimated = @event.Genres?.Contains("Animated") ?? false;
-            if (isAnimated)
-            {
-                Console.ForegroundColor = ConsoleColor.Yellow;
-            }
-
-            Console.WriteLine($"{startTime} {identifier} ({@event.Genres})");
-
-            Console.BackgroundColor = oldBackgroundColor;
-            Console.ForegroundColor = oldForegroundColor;
+            return results;
         }
 
 #if GenerateClass
