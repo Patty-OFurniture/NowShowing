@@ -18,33 +18,32 @@ namespace NowShowing
         }
 
         static void Main_(string[] args)
-        { 
+        {
+            bool createJson = false;
             var sqlFile = @"C:\Users\Public\NPVR-data\npvr.db3";
-            if (args.Length > 1)
+            if (args.Length == 1)
+            {
                 if (File.Exists(args[0]))
                     sqlFile = args[0];
+            }
+            else if (args.Length == 2)
+            {
+                createJson = true;
+            }
 
             string query = File.ReadAllText("Query.sql");
 
             var excludeList = File.ReadAllLines("Exclude.txt");
 
-            var excludeTitles = excludeList
-                .Where(s => !String.IsNullOrEmpty(s))
-                .Where(s => !s.StartsWith("#"))
-                .Distinct()
-                .ToHashSet();
+            if (createJson)
+            {
+                new ExclusionList().Create(excludeList);
+                return;
+            }
 
-            var excludeGenres = excludeList
-                .Where(s => s.StartsWith("#G:"))
-                .Select(s => EventOutput.FixGenres(s.Substring(3)))
-                .Distinct()
-                .ToHashSet();
-
-            var excludeMovies = excludeList
-                .Where(s => s.StartsWith("#M:"))
-                .Distinct()
-                .Select(s => s.Substring(3))
-                .ToHashSet();
+            // HashSet<string> excludeTitles, excludeGenres, excludeMovies;
+            
+            GenerateLists(excludeList, out var excludeTitles, out var excludeGenres, out var excludeMovies, out var highlightCast);
 
 #if GenerateClass
             CreateClass("Event", sqlFile, query);
@@ -52,9 +51,35 @@ namespace NowShowing
 #endif
             var events = GetEvents(sqlFile, query);
 
-            EventOutput.WriteEvents(events, excludeTitles, excludeGenres, excludeMovies);
+            EventOutput.WriteEvents(events, excludeTitles, excludeGenres, excludeMovies, highlightCast);
 
             return;
+        }
+
+        public static void GenerateLists(string[] excludeList, out HashSet<string> excludeTitles, out HashSet<string> excludeGenres, out HashSet<string> excludeMovies, out HashSet<string> highlightCast)
+        {
+            excludeList = [.. excludeList.Distinct()];
+
+            excludeTitles = excludeList
+                .Where(s => !String.IsNullOrEmpty(s))
+                .Where(s => !s.StartsWith("#"))
+                .Distinct()
+                .ToHashSet();
+            excludeGenres = excludeList
+                .Where(s => s.StartsWith("#G:"))
+                .Select(s => EventOutput.FixGenres(s.Substring(3)))
+                .Distinct()
+                .ToHashSet();
+            excludeMovies = excludeList
+                .Where(s => s.StartsWith("#M:"))
+                .Distinct()
+                .Select(s => s.Substring(3))
+                .ToHashSet();
+            highlightCast = excludeList
+                .Where(s => s.StartsWith("#C:"))
+                .Distinct()
+                .Select(s => s.Substring(3))
+                .ToHashSet();
         }
 
         private static List<Event> GetEvents(string sqlFile, string query)
@@ -80,6 +105,22 @@ namespace NowShowing
                     // "ToMyClass" method is generated at compile time
                     results = reader.ToEvent();
                 }
+
+                command.Dispose();
+
+                connection.Close();
+                connection.Dispose();
+
+                /*
+                This is by design - connection pooling was implemented in version 
+                6.0 of the Sqlite provider, which keeps connections open so they 
+                can be recycled for better performance (see docs). You can use the 
+                SqliteConnection.ClearAllPools() API to force all idle pooled 
+                connections to be closed at a specific moment, or disable pooling 
+                altogether by adding Pooling=false to your connection string (and 
+                forgo the perf improvements).
+                */
+                SqliteConnection.ClearAllPools();
             }
 
             return results;

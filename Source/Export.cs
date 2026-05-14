@@ -19,6 +19,7 @@ namespace NowShowing
                 foreach (var filename in Directory.GetFiles(folder, "npvr_*.db3"))
                 {
                     ExportInternal(filename);
+                    Console.WriteLine($"del \"{filename}\"");
                 }
             }
         }
@@ -79,7 +80,15 @@ namespace NowShowing
                     ConnectionString = @"data source=MSI\SQL2019;Integrated Security=SSPI;Initial Catalog=NPVR_TEMP;TrustServerCertificate=true"
                 };
 
-                sqlConnection.Open();
+                try
+                {
+                    sqlConnection.Open();
+                }
+                catch (Exception)
+                {
+                    sqlConnection.Open(); // retry in case of a timmeout
+                }
+
                 var cmd = sqlConnection.CreateCommand();
 
                 Console.WriteLine("----------" + key);
@@ -129,7 +138,7 @@ namespace NowShowing
                                 var tmp = reader[column]?.ToString() ?? "null";
 
                                 if (tmp.StartsWith("202") && 
-                                    (tmp.Length <= 27 && tmp.Length >= 25)
+                                    (tmp.Length <= 27 && tmp.Length >= 22)
                                     && tmp.Contains("."))
                                     tmp = tmp.Substring(0, 19);
 

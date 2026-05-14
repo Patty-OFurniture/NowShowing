@@ -1,11 +1,12 @@
 ﻿select 
 	EPG_EVENT.title as Title, 
+	EPG_EVENT.subtitle as Subtitle,
 	EPG_EVENT.genres as Genres,
 	CHANNEL.name as ChannelName, 
 	CHANNEL.number as ChannelMajor, 
 	CHANNEL.minor as ChannelMinor, 
 	datetime(min(start_time), 'localtime') as StartTime,
-	--timediff(end_time, start_time)),
+	timediff(end_time, start_time) as Duration,
 	season as Season,
 	episode as Episode,
 	original_air_date as OriginalAirDate,
@@ -19,7 +20,7 @@ from EPG_EVENT
 join CHANNEL on CHANNEL.oid = EPG_EVENT.channel_oid
 
 where (
-	start_time > datetime('now') or end_time > datetime('now')
+	end_time > datetime('now') or start_time > datetime('now')
 ) 
 
 and start_time < datetime('now', 'localtime','24 hours')
