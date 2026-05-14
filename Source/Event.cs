@@ -9,6 +9,7 @@ namespace NowShowing
     public class Event
     {
         public String? Title { get; set; }
+        public String? Subtitle { get; set; }
         public String? Description { get; set; }
         public String? Genres { get; set; }
         public String? ChannelName { get; set; }
